@@ -1,0 +1,107 @@
+ html, body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+.signup-page {
+    background: url('../images/bg.png') no-repeat center;
+    background-size: cover;
+}
+.signup-form {
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  width: 460px;
+  min-height: 470px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px; 
+}
+.signup-form-header-icon {
+  width: 24px;
+  height: 24px;
+  float: left;
+  margin-top: -2px;
+  margin-right: 8px;
+}
+.signup-form-header__title {
+  color: #1b1c1d;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+.signup-form-header__descr {
+  font-family: Arial;
+  color: #797b7f;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 6px;
+  margin-bottom: 32px;
+}
+.signup-form-header__login,
+.signup-form-footer__terms,
+.signup-form-footer__privacy {
+  color: #ea355a;
+  text-decoration: none;
+}
+.signup-form-main__firstname,
+.signup-form-main__lastname,
+.signup-form-main__email,
+.signup-form-main__password {
+  border-radius: 4px;
+  border-style: none;
+  background-color: #f0f0f0;
+  width: 193px;
+  height: 40px;
+  color: #797b7f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  padding-left: 15px;
+  margin-bottom: 17px;
+}
+.signup-form-main__firstname,
+.signup-form-main__lastname {
+  width: 193px;
+}
+.signup-form-main__firstname {
+  margin-right: 9px;
+}
+.signup-form-main__email,
+.signup-form-main__password {
+    width: 100%;
+    display: block;
+}
+.signup-form-main__btn {
+  border-radius: 4px;
+  background-color: #ea355a;
+  box-shadow: 0px 3px 0px 0px #bd1962;
+  border-style: none;
+  width: 400px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+.signup-form-footer {
+  font-family: Arial;
+  color: #797b7f;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 30px;
+}
